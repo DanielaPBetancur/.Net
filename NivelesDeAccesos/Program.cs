@@ -11,6 +11,17 @@ namespace NivelesDeAccesos
             clasedev.Nombre = "daniela";
             clasedev.Telefono = "1234567789";
 
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
