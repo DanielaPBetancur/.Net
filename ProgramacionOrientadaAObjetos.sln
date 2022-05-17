@@ -93,17 +93,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryStreams", "MemoryStre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seek", "Seek\Seek.csproj", "{D2A42636-1E05-489B-90E7-B76B2A0563C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeerDatosDeUnStream", "LeerDatosDeUnStream\LeerDatosDeUnStream.csproj", "{7D5B989D-3700-42D6-8D48-10CEB952D4BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeerDatosDeUnStream", "LeerDatosDeUnStream\LeerDatosDeUnStream.csproj", "{7D5B989D-3700-42D6-8D48-10CEB952D4BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escribir_datos_stream", "Escribir_datos_stream\Escribir_datos_stream.csproj", "{5D6AC37C-818D-4BD0-825B-173423017092}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escribir_datos_stream", "Escribir_datos_stream\Escribir_datos_stream.csproj", "{5D6AC37C-818D-4BD0-825B-173423017092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro_Archvos", "Intro_Archvos\Intro_Archvos.csproj", "{211E5835-2B53-485A-B175-7AD5A90D69A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro_Archvos", "Intro_Archvos\Intro_Archvos.csproj", "{211E5835-2B53-485A-B175-7AD5A90D69A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escribir_datos_archivo", "Escribir_datos_archivo\Escribir_datos_archivo.csproj", "{BD02B734-6DA1-4AF0-A5F6-E7371615CB86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escribir_datos_archivo", "Escribir_datos_archivo\Escribir_datos_archivo.csproj", "{BD02B734-6DA1-4AF0-A5F6-E7371615CB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leer_archivo", "Leer_archivo\Leer_archivo.csproj", "{F7C6AA27-A884-485E-BF42-E1AE29242E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leer_archivo", "Leer_archivo\Leer_archivo.csproj", "{F7C6AA27-A884-485E-BF42-E1AE29242E5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programación Asincrona", "Programación Asincrona", "{D7E61DC2-A95A-43BE-83FC-EAE80FFCA6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programacion_asincrona", "Programacion_asincrona\Programacion_asincrona.csproj", "{924D2FE7-7A92-42EB-9508-55FF05CA2034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inicio_simultaneo_de_tareas", "Inicio_simultaneo_de_tareas\Inicio_simultaneo_de_tareas.csproj", "{53651672-EA22-4B4A-936A-80E681BB3F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composicion_de_tareas", "Composicion_de_tareas\Composicion_de_tareas.csproj", "{89B2FFBD-DC6E-4F14-8695-8F138C063491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_Asinc_mejores_practicas", "Prog_Asinc_mejores_practicas\Prog_Asinc_mejores_practicas.csproj", "{F0D12250-F7B1-4029-AF3A-9E73773E9D59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{E6D4A2F0-0EDF-4A4E-B001-02FDE07B82BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -287,6 +297,22 @@ Global
 		{F7C6AA27-A884-485E-BF42-E1AE29242E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C6AA27-A884-485E-BF42-E1AE29242E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C6AA27-A884-485E-BF42-E1AE29242E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924D2FE7-7A92-42EB-9508-55FF05CA2034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924D2FE7-7A92-42EB-9508-55FF05CA2034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924D2FE7-7A92-42EB-9508-55FF05CA2034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924D2FE7-7A92-42EB-9508-55FF05CA2034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53651672-EA22-4B4A-936A-80E681BB3F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53651672-EA22-4B4A-936A-80E681BB3F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53651672-EA22-4B4A-936A-80E681BB3F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53651672-EA22-4B4A-936A-80E681BB3F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B2FFBD-DC6E-4F14-8695-8F138C063491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B2FFBD-DC6E-4F14-8695-8F138C063491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B2FFBD-DC6E-4F14-8695-8F138C063491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B2FFBD-DC6E-4F14-8695-8F138C063491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D12250-F7B1-4029-AF3A-9E73773E9D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D12250-F7B1-4029-AF3A-9E73773E9D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D12250-F7B1-4029-AF3A-9E73773E9D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D12250-F7B1-4029-AF3A-9E73773E9D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -336,6 +362,10 @@ Global
 		{211E5835-2B53-485A-B175-7AD5A90D69A8} = {46BA0554-B254-4E9B-9CDC-8097D026DAB0}
 		{BD02B734-6DA1-4AF0-A5F6-E7371615CB86} = {46BA0554-B254-4E9B-9CDC-8097D026DAB0}
 		{F7C6AA27-A884-485E-BF42-E1AE29242E5B} = {46BA0554-B254-4E9B-9CDC-8097D026DAB0}
+		{924D2FE7-7A92-42EB-9508-55FF05CA2034} = {D7E61DC2-A95A-43BE-83FC-EAE80FFCA6EC}
+		{53651672-EA22-4B4A-936A-80E681BB3F58} = {D7E61DC2-A95A-43BE-83FC-EAE80FFCA6EC}
+		{89B2FFBD-DC6E-4F14-8695-8F138C063491} = {D7E61DC2-A95A-43BE-83FC-EAE80FFCA6EC}
+		{F0D12250-F7B1-4029-AF3A-9E73773E9D59} = {D7E61DC2-A95A-43BE-83FC-EAE80FFCA6EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {840BA3EF-9DF3-4494-943B-385E27C56B21}
